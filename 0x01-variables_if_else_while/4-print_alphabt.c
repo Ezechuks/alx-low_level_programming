@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negaive
+ * main - print if the number is positive, zero, or negative
  *
- * Description: main function
+ * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
@@ -18,6 +18,6 @@ if (low != e && low != q)
 	putchar(low);
 }
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
