@@ -2,10 +2,10 @@
 /**
  * main - print if the number is positive, zero or negative
  *
- * Description: main function
+ * Description: using the main function
  *
  *
- *
+ * Return: 0
  */
 int main(void)
 {
