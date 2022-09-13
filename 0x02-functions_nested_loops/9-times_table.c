@@ -11,7 +11,7 @@ void times_table(void)
 		_putchar('0');
 
 		for (mult = 1; mult <= 9; mult++)
-		{			
+		{		
 			_putchar(',');
 			_putchar(' ');
 
@@ -23,7 +23,7 @@ void times_table(void)
 
 			_putchar((prod % 10) + '0');
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
 
