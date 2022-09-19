@@ -10,13 +10,14 @@
 
 void puts_half(char *str)
 {
-	int j, k, i;
-	
-	j = strlen(str);
-	if (j % 2 == 1)
-		k = j / 2 + 1;
+	int x, y, i;
+
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
 	else
-		k = j / 2;
-	for (i = k; i = j; i++)
+		y = x / 2;
+	for (i = y; i < x; i++)
 		_putchar(str[i]);
 	_putchar('\n');
+}
