@@ -8,11 +8,11 @@
  * Return: nothing
  */
 
-void print_rev(char *s)
+void print_rev(char *r)
 {
-	int len = strlen(s);
+	int len = strlen(r);
 
 	while (len--)
-		putchar(*(s + len));
+		putchar(*(r + len));
 	putchar(10);
 }
