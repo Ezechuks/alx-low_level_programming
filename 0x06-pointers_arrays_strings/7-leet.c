@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * leet - function that encodes a string
  * @str: string that will be necoded
