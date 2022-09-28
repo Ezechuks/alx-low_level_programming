@@ -1,34 +1,34 @@
 #include "main.h"
 
-int _sqrt(int, int);
+int check_prime(int, int);
 
 /**
- * _sqrt_recursion - sqrt using recursion
- * @n: parameter to be sqrt
+ * is_prime_number - prime identifier
+ * @n: is number
  *
- * Return: square root of a number
+ * Return: integer
  */
 
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
-	return (_sqrt(n, 1));
+	return (check_prime(n, 1));
 }
 
 /**
- * _sqrt - recursive square root
+ * check_prime - it check prime numbers
  * @n: number
- * @i: is iterator
+ * @i: iterator
  *
- * Return: a number
+ * Return: a 1 or 0
  */
 
-int _sqrt(int n, int i)
+int check_prime(int n, int i)
 {
-	int square = i * i;
-
-	if (square > n)
-		return (-1);
-	if (square == n)
-		return (i);
-	return (_sqrt(n, i + 1));
+	if (n <= 1)
+		return (0);
+	if (n % i == 0 && i > 1)
+		return (0);
+	if ((n / i) < i)
+		return (1);
+	return (check_prime(n, i + 1));
 }
