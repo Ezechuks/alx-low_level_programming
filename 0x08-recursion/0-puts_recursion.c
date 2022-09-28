@@ -1,4 +1,4 @@
-/* 
+/*
  * File: 0-puts_recursion.c
  * Auth: sam
  */
@@ -7,11 +7,9 @@
 
 
 /**
- * _puts_recursion - prints a string, followed by a new line
- * @s: The string to be printed 
+ * _puts_recursion - prints a string, followed by a new line.
  *
- * Return: on success 1
- * On error, -1 is returned, and errno is set appropraitely.
+ * @s: the string to be printed
  */
 
 void _puts_recursion(char *s)
