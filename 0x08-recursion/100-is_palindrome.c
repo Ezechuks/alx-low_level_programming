@@ -14,8 +14,8 @@ int is_palindrome(char *s);
 int find_strlen(char *s)
 {
 	int len = 0;
-	
-	if(*(s + len))
+
+	if (*(s + len))
 
 	{
 
