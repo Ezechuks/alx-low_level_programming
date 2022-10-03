@@ -33,7 +33,7 @@ int wordnos(char *s)
  * **strtow - splits a string
  * @str: string to split
  *
- * ReturnL pointer to an array
+ * Return: pointer to an array
  */
 char **strtow(char *str)
 {
