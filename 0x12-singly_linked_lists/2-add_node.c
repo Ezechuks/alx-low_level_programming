@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_note - adds a new mode at the beginning of a list
+ * add_node - adds a new mode at the beginning of a list
  * @head: head of linked list
  * @str: string to store in the list
  *
